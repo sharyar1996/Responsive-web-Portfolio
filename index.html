@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <script src="https://kit.fontawesome.com/dfc77d894f.js" crossorigin="anonymous"></script>
+    <title>Document</title>
+    <style>
+        @media screen and (max-width: 1074px) {
+            .projectsgrid a {
+                width: 48%;
+            }
+        }
+
+        @media screen and (max-width: 700px) {
+            .projectsgrid a {
+                width: 100%;
+            }
+
+            .projectsgrid {
+                width: 80%;
+            }
+        }
+
+        @media screen and (max-width: 460px) {
+            #navbar ul {
+                justify-content: center;
+                margin: unset;
+                font-size: 80%;
+            }
+
+            #navbar a {
+                padding: 0 0.5em;
+            }
+
+            .footerelements {
+                flex-direction: column;
+                text-align: center;
+
+            }
+
+            .footerelements p {
+                margin: 1em 0;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <nav id="navbar">
+        <ul>
+            <a href="#welcome-section">
+                <li>About</li>
+            </a>
+            <a href="#projects">
+                <li>Work</li>
+            </a>
+            <a href="#Contact">
+                <li>Contact</li>
+            </a>
+        </ul>
+    </nav>
+    <main>
+        <section id="welcome-section">
+            <h1>Hey I am Mimic </h1>
+            <p>a web developer</p>
+        </section>
+        <section id="projects">
+            <h2>These are some of my projects</h2>
+            <div class="projectsgrid">
+
+                <a class="project project-title" href="">
+                    <img src="./tribute.jpg" alt="">
+                    <p class="project-title">
+                        <span class="arrow">
+                            < </span>
+                                Tribute Page
+                                <span class="arrow">/></span>
+                    </p>
+                </a>
+                <a class="project project-title" href="https://codepen.io/freeCodeCamp/full/qRZeGZ" target="_blank">
+                    <img src="./random-quote-machine.png" alt="">
+                    <p class="project-title">
+                        <span class="arrow">
+                            < </span>
+                                Random Quote Machine
+                                <span class="arrow">/></span>
+                    </p>
+                </a>
+                <a class="project project-title" href="">
+                    <img src="./calc.png" alt="">
+                    <p class="project-title">
+                        <span class="arrow">
+                            < </span>
+                                Javascript Calculator
+                                <span class="arrow">/></span>
+                    </p>
+                </a>
+                <a class="project project-title" href="">
+                    <img src="./map.jpg" alt="">
+                    <p class="project-title">
+                        <span class="arrow">
+                            < </span>
+                                Map Data Across the Globe
+                                <span class="arrow">/></span>
+                    </p>
+                </a>
+                <a class="project project-title" href="">
+                    <img src="./wiki.png" alt="">
+                    <p class="project-title">
+                        <span class="arrow">
+                            < </span>
+                                Wikipedia Viewer
+                                <span class="arrow">/></span>
+                    </p>
+                </a>
+                <a class="project project-title" href="">
+                    <img src="./tic-tac-toe.png" alt="">
+                    <p class="project-title">
+                        <span class="arrow">
+                            < </span>
+                                Tic Tac Toe Game
+                                <span class="arrow">/></span>
+                    </p>
+                </a>
+            </div>
+            <button>Show all
+                <span>
+                    >
+                </span>
+            </button>
+        </section>
+        <section id="Contact">
+            <h2>Let's work together...</h2>
+            <p>How do you take your coffee?</p>
+            <div class="links">
+                <a id="profile-link" href="https://www.facebook.com/freecodecamp">
+                    <i class="fa-brands fa-square-facebook"></i>Facebook</a>
+                <a id="profile-link" href="https://www.facebook.com/freecodecamp">
+                    <i class="fa-brands fa-github"></i>Github</a>
+                <a id="profile-link" href="https://www.facebook.com/freecodecamp">
+                    <i class="fa-brands fa-twitter"></i>Twitter</a>
+                <a id="profile-link" href="https://www.facebook.com/freecodecamp">
+                    <i class="fa-solid fa-at"></i>Send a mail</a>
+                <a id="profile-link" href="https://www.facebook.com/freecodecamp">
+                    <i class="fa-duotone fa-mobile"></i>Call me</a>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <div class="footerelements">
+            <p>**This is just a fake portfolio. All the projects and contact details given are not real.</p>
+            <p>Created for <a href="www.freecodecamp.org">freeCodeCamp </a></p>
+        </div>
+
+    </footer>
+</body>
+
+</html>
